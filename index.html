@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finnkinon elokuva-aikataulu</title>
+    <link rel="stylesheet" href="Elokuvat.css"><!-- Linkki ulkoiseen CSS-tyylitiedostoon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- Linkki Font Awesome -kuvakkeille -->
+    <style>
+
+    </style>
+
+    <button class="btn" id="homeButton"><i class="fa fa-home"></i> Etusivu</button><!-- Kotisivun painike Font Awesome -kuvakkeella -->
+    <button class="btn" id="themeToggleButton">Vaihda teemaa</button><!-- Teeman vaihtopainike -->
+
+</head>
+<body>
+    <div class="container">
+        <h1>Finnkinon elokuva-aikataulu</h1><!-- Sovelluksen otsikko -->
+        <div class="form-group">
+            <label for="theater">Valitse elokuvateatteri:</label><!-- Valintaruudun otsikko elokuvateatterin valinnalle -->
+            <select id="theater">
+                <option value="1029">Valitse alue/teatteri</option>
+                <option value="1014">Pääkaupunkiseutu</option>
+                <option value="1012">Espoo</option>
+                <option value="1039">Espoo: OMENA</option>
+                <option value="1038">Espoo: SELLO</option>
+                <option value="1002">Helsinki</option>
+                <option value="1045">Helsinki: ITIS</option>
+                <option value="1031">Helsinki: KINOPALATSI</option>
+                <option value="1032">Helsinki: MAXIM</option>
+                <option value="1033">Helsinki: TENNISPALATSI</option>
+                <option value="1013">Vantaa: FLAMINGO</option>
+                <option value="1015">Jyväskylä: FANTASIA</option>
+                <option value="1016">Kuopio: SCALA</option>
+                <option value="1017">Lahti: KUVAPALATSI</option>
+                <option value="1041">Lappeenranta: STRAND</option>
+                <option value="1018">Oulu: PLAZA</option>
+                <option value="1019">Pori: PROMENADI</option>
+                <option value="1021">Tampere</option>
+                <option value="1034">Tampere: CINE ATLAS</option>
+                <option value="1035">Tampere: PLEVNA</option>
+                <option value="1047">Turku ja Raisio</option>
+                <option value="1022">Turku: KINOPALATSI</option>
+                <option value="1046">Raisio: LUXE MYLLY</option>
+            </select>
+        </div>
+        <button id="searchButton">Hae</button><!-- Painike elokuvien hakemiseksi -->
+        <div id="movies"></div><!-- Sisältösäiliö elokuvien näyttämistä varten -->
+    </div>
+
+    <script src="script.js"></script><!-- Linkkaus Javascript tiedostoon -->
+
+</body>
+</html>
