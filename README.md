@@ -1,1 +1,3 @@
-# Elokuva-aikataulu-App
+Projekti 2a: AJAX-sovellus REST APIa hyödyntäen
+
+Työnjako on pyritty tekemään molemmille mahdollisimman tasaiseksi. Sovelluksen koodia (HTML, CSS & JavaScript) on kirjoittanut Jussi-Pekka ja Vili. Jussi-Pekka on toteuttanut sovelluksessa esimerkiksi tekstit, napit ja virheilmoituksen kun elokuvien hakeminen epäonnistuu. Jussi-Pekka on lisännyt HTML ja CSS koodiin kommentit sekä Vili on lisännyt kommentteja CSS ja JS koodiin. Teeman vaihdon on toteuttanut Jussi-Pekka ja Etusivu painikkeen Vili. Elokuvakortit ja niiden sisällön on tehnyt Vili. Projektiin on yhteensä käytetty noin 28 tuntia joista molemmilla noin 14 tuntia.
